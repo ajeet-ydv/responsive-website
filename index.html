@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Responsive Webside</title>
+     <link rel="stylesheet" href="Web.css">
+</head>
+
+<body>
+     <header id="header">
+          <a href="#" class="logo">Logo</a>
+          <ul>
+               <li> <a href="#home" class="active" onclick="toggle()"> Home </a> </li>
+               <li> <a href="#about" onclick="toggle()"> About </a> </li>
+               <li> <a href="#service" onclick="toggle()"> Service </a> </li>
+               <li> <a href="#portfolio" onclick="toggle()"> Portfolio </a> </li>
+               <li> <a href="#team" onclick="toggle()"> Team</a> </li>
+               <li> <a href="#contact" onclick="toggle()"> Contact </a> </li>
+          </ul>
+          <div class="toggle" onclick="toggle()"></div>
+     </header>
+     <section id="home">
+          <div>
+               <h2>Responsive Website Design</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore possimus quas architecto minus
+                    nam cupiditate, vero consectetur laborum, suscipit nobis voluptatum neque nemo magni iste quaerat
+                    officia perspiciatis non!
+               </p>
+
+          </div>
+          <img src="aj.png">
+     </section>
+     <section id="about">
+          <div>
+               <h2>About Me</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore possimus quas architecto minus
+                    nam cupiditate, vero consectetur laborum, suscipit nobis voluptatum neque nemo magni iste quaerat
+                    officia perspiciatis non!
+               </p>
+
+          </div>
+     </section>
+     <section id="service">
+          <div>
+               <h2>Our Service</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore possimus quas architecto minus
+                    nam cupiditate, vero consectetur laborum, suscipit nobis voluptatum neque nemo magni iste quaerat
+                    officia perspiciatis non!
+               </p>
+
+          </div>
+     </section>
+     <section id="portfolio">
+          <div>
+               <h2>My Recent lerning Skills</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore possimus quas architecto minus
+                    nam cupiditate, vero consectetur laborum, suscipit nobis voluptatum neque nemo magni iste quaerat
+                    officia perspiciatis non!
+               </p>
+
+          </div>
+     </section>
+     <section id="team">
+          <div>
+               <h2>My Skills</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore possimus quas architecto minus
+                    nam cupiditate, vero consectetur laborum, suscipit nobis voluptatum neque nemo magni iste quaerat
+                    officia perspiciatis non!
+               </p>
+
+          </div>
+     </section>
+     <section id="contact">
+          <div>
+               <h2>Contact Me</h2>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime dolore possimus quas architecto minus
+                    nam cupiditate, vero consectetur laborum, suscipit nobis voluptatum neque nemo magni iste quaerat
+                    officia perspiciatis non!
+               </p>
+
+          </div>
+     </section>
+     <script type="text/javascript">
+          function toggle() {
+               var header = document.getElementById("header")
+               header.classList.toggle('active')
+          }
+     </script>
+</body>
+
+</html>
